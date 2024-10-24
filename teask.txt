@@ -1,0 +1,6 @@
+erstelle eine Reihe von drei Boxen mit folgenden Eigenschaften:
+    1. Alle Boxen sollen eine Breite von 200px haben.
+    2. Jede Box soll einen anderen farbigen Rahem haben.
+    3. Die Boxen sollen verschiedene Padding- und border-box.
+    4. Expreimenteiere mit content-box und border-box.
+    5. Füge Text in die Boxen ein und bebachte das Verhalten.

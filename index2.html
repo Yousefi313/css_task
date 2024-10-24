@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxen Experiment</title>
+</head>
+<style>
+    body {
+    /* display: flex;
+    justify-content: space-around;
+    padding: 20px; */
+}
+
+.box {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.box1 {
+    border: 5px solid red;
+    padding: 20px;
+    box-sizing: content-box; /* Padding addiert sich zur Breite */
+}
+
+.box2 {
+    border: 5px solid blue;
+    padding: 20px;
+    box-sizing: border-box; /* Padding wird in der Breite mitgerechnet */
+}
+
+.box3 {
+    border: 5px solid green;
+    padding: 40px;
+    box-sizing: border-box; /* Padding wird in der Breite mitgerechnet */
+}
+.display-flex{
+    display: flex; 
+    /* Es bringt alles neben einander */
+}
+
+</style>
+<body>
+    <div class="display-flex">
+    <div class="box box1">Box 1 - content-box</div>
+    <div class="box box2">Box 2 - border-box</div>
+    <div class="box box3">Box 3 - border-box</div>
+    </div>
+</body>
+</html>
